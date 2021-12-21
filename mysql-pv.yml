@@ -4,6 +4,7 @@ metadata:
   name: mysql-pv-volume
   labels:
     type: local
+namespace: flask-api
 spec:
   storageClassName: manual
   capacity:

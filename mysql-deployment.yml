@@ -5,6 +5,7 @@ metadata:
   name: mysql
   labels:
     app: db
+namespace: flask-api
 spec:
   replicas: 1
   selector:
@@ -44,6 +45,7 @@ metadata:
   name: mysql
   labels:
     app: db
+namespace: flask-api
 spec:
   ports:
   - port: 3306
